@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="scrollBtn.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="icon" href="images/Logo_edited.png" type="image/gif" sizes="16x16">
+    <title>Estudi Laris</title>
+</head>
+
+<body>
+    <div class="cltop">
+        <nav class="clnavBar" id="myNavbar">
+            <input type="checkbox" id="check">
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <img src="images/Logo_edited.png" id="Logo">
+            <!--
+            <ul>
+                <li><a href="#" target="_self">Inici</a></li>
+                <li><a href="team.html" target="_self">Equip</a></li>
+                <li><a href=" # ">Services</a></li>
+                <li><a href="contacte.html " target="_self ">Contacte</a></li>
+                <li>
+                    <select name="idioma" id="idIdioma" onchange="canviIdioma();">
+                        <option value="idCA" id="idCA">CA</option>
+                        <option value="idES" id="idES">ES</option>
+                        <option value="idEN" id="idEN">EN</option>
+                    </select>
+                </li>
+            </ul>
+            -->
+            <ul>
+                <div class="filterLanguage idCA">
+                    <li>
+                        <button onclick="canviPagina('index.html')">INICI</button>
+                    </li>
+                    <li>
+                        <button onclick="canviPagina('team.html')">EQUIP</button>
+                    </li>
+                    <li><a href=" # ">Serveis</a></li>
+                    <li>
+                        <button onclick="canviPagina('contacte.html')">CONTACTE</button>
+                    </li>
+                </div>
+
+                <div class="filterLanguage idES">
+                    <li>
+                        <button onclick="canviPagina('index.html')">INICIO</button>
+                    </li>
+                    <li>
+                        <button onclick="canviPagina('team.html')">EQUIPO</button>
+                    </li>
+                    <li><a href=" # ">SERVICIOS</a></li>
+                    <li>
+                        <button onclick="canviPagina('contacte.html')">CONTACTO</button>
+                    </li>
+                </div>
+                <div class="filterLanguage idEN">
+                    <li>
+                        <button onclick="canviPagina('index.html')">HOME</button>
+                    </li>
+                    <li>
+                        <button onclick="canviPagina('team.html')">TEAM</button>
+                    </li>
+                    <li><a href=" # ">SERVICES</a></li>
+                    <li>
+                        <button onclick="canviPagina('contacte.html')">CONTACT</button>
+                    </li>
+                </div>
+            </ul>
+            <div>
+                <select name="idioma" id="idIdioma" onchange="canviIdioma();">
+                <option value="idCA" id="idCA">CA</option>
+                <option value="idES" id="idES">ES</option>
+                <option value="idEN" id="idEN">EN</option>
+            </select>
+            </div>
+        </nav>
+    </div>
+    <div class="container resta">
+    </div>
+    <div class="proves ">
+        <div class="vertical-center" style="width:100%;">
+            <div class="filterLanguage idCA">
+                <h1 class="principal titol">EQUIP</h1>
+            </div>
+            <div class="filterLanguage idES">
+                <h1 class="principal titol">EQUIPO</h1>
+            </div>
+            <div class="filterLanguage idEN">
+                <h1 class="principal titol">TEAM</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+
+        <section class="grid-container-1">
+            <div class="filterLanguage idCA">
+                <article class="grid-item">
+                    Topant de cap en una i altra soca, avançant d’esma pel camí de l’aigua, se’n ve la vaca tota sola. És cega. D’un cop de roc llançat amb massa traça, el vailet va buidar-li un ull, i en l’altre se li ha posat un tel. La vaca és cega. Ve a abeurar-se a
+                    la font com ans solia; més no amb el ferm posat d’altres vegades ni amb ses companyes, no: ve tota sola. Ses companyes, pels cingles,
+                </article>
+            </div>
+            <div class="filterLanguage idES">
+                <article class="grid-item">
+                    La ventura va guiando nuestras cosas mejor de lo que acertáramos a desear; porque ves allí, amigo Sancho Panza, donde se descubren treinta o pocos más desaforados gigantes, con quien pienso hacer batalla y quitarles a todos las vidas, con cuyos despojos
+                    comenzaremos a enriquecer, que esta es buena guerra, y es gran servicio de Dios quitar tan mala simiente de sobre la faz de la tierra.
+                </article>
+            </div>
+            <div class="filterLanguage idEN">
+                <article class="grid-item">
+                    To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles and by opposing end them. To die - to sleep, no more; and by a sleep to say we
+                    end The heart-ache and the thousand natural shocks that flesh is heir to: 'tis a consummation devoutly to be wish'd. To die, to sleep; to sleep, perchance to dream—ay, there's the rub:
+
+                </article>
+            </div>
+        </section>
+
+    </div>
+    <div class="container">
+        <br>
+        <div class="filterLanguage idCA">
+            <h1>Equip directiu</h1>
+        </div>
+        <div class="filterLanguage idES">
+            <h1>Equipo directivo</h1>
+        </div>
+        <div class="filterLanguage idEN">
+            <h1>Management team</h1>
+        </div>
+        <br>
+
+        <section class="grid-container-2">
+            <article class="grid-item">
+                <div>
+                    <img class="photo" src="images/Pau_edited.jpg" alt="">
+                    <!-- id="imatge-grid"> -->
+                </div>
+                <br><br>
+                <h2>Pau Padullés</h2>
+                <div class="filterLanguage idCA">
+                    <h3>Arquitecte</h3>
+                </div>
+                <div class="filterLanguage idES">
+                    <h3>Arquitecto</h3>
+                </div>
+                <div class="filterLanguage idEN">
+                    <h3>Architect</h3>
+                </div>
+                <br>
+                <div class="filterLanguage idCA">
+                    <h2>Funcions</h2>
+                    <br>
+                    <p>Ses companyes, pels cingles, per les comes, pel silenci dels prats i en la ribera, fan dringar l’esquellot mentres pasturen l’herba fresca a l’atzar... Ella cauria.</p>
+                </div>
+                <div class="filterLanguage idES">
+                    <h2>Funciones</h2>
+                    <br>
+                    <p>Mire vuestra merced —respondió Sancho— que aquellos que allí se parecen no son gigantes, sino molinos de viento, y lo que en ellos parecen brazos son las aspas, que, volteadas del viento, hacen andar la piedra del molino.</p>
+                </div>
+                <div class="filterLanguage idEN">
+                    <h2>Functions</h2>
+                    <br>
+                    <p>For in that sleep of death what dreams may come, when we have shuffled off this mortal coil, must give us pause—there's the respect that makes calamity of so long life.</p>
+                </div>
+                <br>
+                <a href="mailto:estudi.laris@gmail.com" target="_top"><i class="fas fa-at">: estudi.laris@gmail.com</i></a>
+
+                <br>
+                <a href="tel:34666333999">
+                    <i class="fas fa-mobile-alt">: +34 666 333 999</i>
+                </a>
+                <br>
+                <div class="filterLanguage idCA">
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </div>
+                <div class="filterLanguage idES">
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </div>
+                <div class="filterLanguage idEN">
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Send whatsapp</i>
+                    </a>
+                </div>
+                <i class="fab fa-linkedin-in"><span>  </span><a href="linkedin.com" target="_blank">Linkedin</a></i>
+
+            </article>
+            <article class="grid-item">
+                <div>
+                    <img class="photo" src="images/Laia_edited.jpg" alt="">
+                    <!-- id="imatge-grid"> -->
+                </div>
+                <br><br>
+                <h2>Laia Cunill</h2>
+                <div class="filterLanguage idCA">
+                    <h3>Enginyera de materials</h3>
+                </div>
+                <div class="filterLanguage idES">
+                    <h3>Inginiera de materiales</h3>
+                </div>
+                <div class="filterLanguage idEN">
+                    <h3>Materials Engineer</h3>
+                </div>
+                <br>
+                <div class="filterLanguage idCA">
+                    <h2>Funcions</h2>
+                    <br>
+                    <p>Ses companyes, pels cingles, per les comes, pel silenci dels prats i en la ribera, fan dringar l’esquellot mentres pasturen l’herba fresca a l’atzar... Ella cauria.</p>
+                </div>
+                <div class="filterLanguage idES">
+                    <h2>Funciones</h2>
+                    <br>
+                    <p>Mire vuestra merced —respondió Sancho— que aquellos que allí se parecen no son gigantes, sino molinos de viento, y lo que en ellos parecen brazos son las aspas, que, volteadas del viento, hacen andar la piedra del molino.</p>
+                </div>
+                <div class="filterLanguage idEN">
+                    <h2>Functions</h2>
+                    <br>
+                    <p>For in that sleep of death what dreams may come, when we have shuffled off this mortal coil, must give us pause—there's the respect that makes calamity of so long life.</p>
+                </div>
+                <a href="mailto:estudi.laris@gmail.com" target="_top"><i class="fas fa-at">: estudi.laris@gmail.com</i></a>
+
+                <br>
+                <a href="tel:34666333999">
+                    <i class="fas fa-mobile-alt">: +34 666 333 999</i>
+                </a>
+                <br>
+
+                <div class="filterLanguage idCA">
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </div>
+                <div class="filterLanguage idES">
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </div>
+                <div class="filterLanguage idEN">
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Send whatsapp</i>
+                    </a>
+                </div>
+                <i class="fab fa-linkedin-in"><span>  </span><a href="linkedin.com" target="_blank">Linkedin</a></i>
+
+            </article>
+        </section>
+        <br><br>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer class="container">
+        <ol>
+            <li><a href="contacte.html" style="font-size: 20px" class="titol">ESTUDI LARIS</a></li>
+            <li>
+                <a href="mailto:estudi.laris@gmail.com" target="_top">
+                    <i class="fas fa-at ">: estudi.laris@gmail.com</i></a>
+            </li>
+
+            <li>
+                <a href="tel:34666333999">
+                    <i class="fas fa-mobile-alt">:  +34 666 333 999</i>
+                </a>
+            </li>
+            <div class="filterLanguage idCA">
+                <li>
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </li>
+
+                <li><a href="politica.html" target="_blank">Política de privacitat</a></li>
+            </div>
+            <div class="filterLanguage idES">
+                <li>
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </li>
+
+                <li><a href="politica.html" target="_blank">Política de privacidad</a></li>
+            </div>
+            <div class="filterLanguage idEN">
+                <li>
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Send whatsapp</i>
+                    </a>
+                </li>
+
+                <li><a href="politica.html" target="_blank">Privacy policy</a></li>
+            </div>
+        </ol>
+    </footer>
+
+    <i class="fas fa-arrow-circle-up" onclick="javascript:topFunction();" id="scrollBtn"></i>
+
+    <script src="canviIdioma.js"></script>
+    <script src="scrollBtn.js"></script>
+    <script src="slideshow.js"></script>
+
+</body>
+
+</html>

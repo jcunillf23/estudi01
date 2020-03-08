@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="scrollBtn.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="icon" href="images/Logo_edited.png" type="image/gif" sizes="16x16">
+    <title>Estudi Laris</title>
+</head>
+
+<body>
+    <div class="cltop">
+        <nav class="clnavBar" id="myNavbar">
+            <input type="checkbox" id="check">
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <img src="images/Logo_edited.png" id="Logo">
+
+            <ul>
+                <div class="filterLanguage idCA">
+                    <li>
+                        <button onclick="canviPagina('index.html')">INICI</button>
+                    </li>
+                    <li>
+                        <button onclick="canviPagina('team.html')">EQUIP</button>
+                    </li>
+                    <li><a href=" # ">Serveis</a></li>
+                    <li>
+                        <button onclick="canviPagina('contacte.html')">CONTACTE</button>
+                    </li>
+                </div>
+
+                <div class="filterLanguage idES">
+                    <li>
+                        <button onclick="canviPagina('index.html')">INICIO</button>
+                    </li>
+                    <li>
+                        <button onclick="canviPagina('team.html')">EQUIPO</button>
+                    </li>
+                    <li><a href=" # ">SERVICIOS</a></li>
+                    <li>
+                        <button onclick="canviPagina('contacte.html')">CONTACTO</button>
+                    </li>
+                </div>
+                <div class="filterLanguage idEN">
+                    <li>
+                        <button onclick="canviPagina('index.html')">HOME</button>
+                    </li>
+                    <li>
+                        <button onclick="canviPagina('team.html')">TEAM</button>
+                    </li>
+                    <li><a href=" # ">SERVICES</a></li>
+                    <li>
+                        <button onclick="canviPagina('contacte.html')">CONTACT</button>
+                    </li>
+                </div>
+            </ul>
+            <div>
+                <select name="idioma" id="idIdioma" onchange="canviIdioma();">
+                <option value="idCA" id="idCA">CA</option>
+                <option value="idES" id="idES">ES</option>
+                <option value="idEN" id="idEN">EN</option>
+            </select>
+            </div>
+        </nav>
+    </div>
+    <div class="container resta">
+    </div>
+    <div class="proves ">
+        <div class="vertical-center" style="width:100%;">
+            <div class="filterLanguage idCA">
+                <h1 class="principal titol">CONTACTE</h1>
+            </div>
+            <div class="filterLanguage idES">
+                <h1 class="principal titol">CONTACTO</h1>
+            </div>
+            <div class="filterLanguage idEN">
+                <h1 class="principal titol">CONTACT</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+    </div>
+
+    <footer class="container">
+        <ol>
+            <li><a href="contacte.html" style="font-size: 20px" class="titol">ESTUDI LARIS</a></li>
+            <li>
+                <a href="mailto:estudi.laris@gmail.com" target="_top">
+                    <i class="fas fa-at ">: estudi.laris@gmail.com</i></a>
+            </li>
+
+            <li>
+                <a href="tel:34666333999">
+                    <i class="fas fa-mobile-alt">:  +34 666 333 999</i>
+                </a>
+            </li>
+            <div class="filterLanguage idCA">
+                <li>
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </li>
+
+                <li><a href="politica.html" target="_blank">Política de privacitat</a></li>
+            </div>
+            <div class="filterLanguage idES">
+                <li>
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                    </a>
+                </li>
+
+                <li><a href="politica.html" target="_blank">Política de privacidad</a></li>
+            </div>
+            <div class="filterLanguage idEN">
+                <li>
+                    <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
+                        <i class="fab fa-whatsapp">: Send whatsapp</i>
+                    </a>
+                </li>
+
+                <li><a href="politica.html" target="_blank">Privacy policy</a></li>
+            </div>
+        </ol>
+    </footer>
+
+    <i class="fas fa-arrow-circle-up" onclick="javascript:topFunction();" id="scrollBtn"></i>
+
+    <script src="canviIdioma.js"></script>
+    <script src="scrollBtn.js"></script>
+
+</body>
+
+</html>

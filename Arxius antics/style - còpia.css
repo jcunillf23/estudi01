@@ -1,0 +1,342 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: lightgrey;
+    background-image: url("images/forest-1404071-1280x960.jpg");
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.grid-container-121 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 50% 25%;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container-3 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container-2 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container-1 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 80%;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-item {
+    /* background-color: white; */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+article div {
+    height: auto;
+}
+
+footer {
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: lightgrey;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+nav {
+    height: 50px;
+    background: white;
+}
+
+nav img {
+    position: absolute;
+    /* width: 150px; */
+    top: 5px;
+    left: 8%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    position: relative;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: grey;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+nav ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+label #btn,
+label #cancel {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 1118px) {
+    nav img {
+        left: 8%;
+    }
+}
+
+@media (max-width: 944px) {
+    nav img {
+        width: 130px;
+        top: 0px;
+        left: 6%;
+    }
+    nav ul li a {
+        font-size: 17px;
+    }
+}
+
+
+/* @media (max-width: 860px) { */
+
+@media (max-width: 750px) {
+    label #btn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    #check:checked~label #btn {
+        display: none;
+    }
+    #check:checked~label #cancel {
+        display: block;
+    }
+
+    [class*="grid-container-"] {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: white;
+        padding: 10px;
+    }
+
+    #Logo {
+      width: 50px !important;
+      height: 50px !important;
+    }
+}
+
+.j-w3-animate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.cltop {
+    position: fixed;
+    /* canviar a sticky */
+    top: 0;
+    /* sticky ??? */
+    width: 100%;
+    z-index: 1
+}
+
+.clnavBar {
+    width: 100%;
+    overflow: hidden
+}
+
+.j-w3-card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.j-w3-white {
+    color: #000!important;
+    background-color: #fff!important
+}
+
+.img-height{
+  height: 90%;
+  width: auto !important;
+}
+
+#Logo {
+  width: 10%;
+}
+
+#imatge-grid{
+  width: 80%;
+  height: auto;
+}
+
+div.proves {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background: white;
+    position: relative;
+    animation: mymove 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+div.resta {
+    width: 100%;
+    margin: auto;
+    background: white;
+}
+
+h1 {
+    color: lightgrey;
+    font-size: 60px
+}
+
+h1.principal {
+    color: white;
+    font-size: 10vw
+}
+
+h2.principal {
+    color: white;
+    font-size: 5vw
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+@keyframes mymove {
+    from {
+        background: white;
+    }
+    to {
+        background: transparent;
+    }
+}
+
+/* IDIOMA */
+.idCA{
+  display: inline-block;
+}
+
+.idES{
+  display: none;
+}
+
+.idEN{
+  display: none;
+}
+
