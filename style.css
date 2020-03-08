@@ -191,7 +191,7 @@ nav ul li a:hover:before {
 nav select {
     position: absolute;
     /* width: 150px; */
-    top: 10px;
+    top: 15px;
     left: 93%;
 }
 
@@ -199,20 +199,25 @@ button {
     background-color: white;
     color: black;
     border: none;
-    padding: 10px 10px;
+    padding: 0px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
+    transition-duration: .4s;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: grey;
+    /* background-color: grey;
     color: white;
-    border-radius: 12px;
+    border-radius: 12px;*/
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 3px;
 }
 
 label #btn,
@@ -308,20 +313,8 @@ label #cancel {
     nav select {
         position: absolute;
         /* width: 150px; */
-        top: 10px;
+        top: 15px;
         left: 45%;
-    }
-    h2 {
-        font-size: 6vw;
-    }
-    h3 {
-        font-size: 5vw;
-    }
-    h4 {
-        font-size: 4vw;
-    }
-    h5 {
-        font-size: 3vw;
     }
 }
 
@@ -399,12 +392,6 @@ div.proves {
     width: 100%;
     height: 50vw;
     margin: auto;
-    /*
-    padding-top: 0;
-    padding-bottom: 30px;
-    text-align: center;
-    vertical-align: middle;
-    */
     background: white;
     position: relative;
     animation: mymove 5s;
@@ -430,26 +417,10 @@ h1.principal {
     font-size: 9vw;
 }
 
-h2 {
-    font-size: 5vw;
-}
-
 h2.principal {
     color: white;
     font-family: Cambria;
     font-size: 6vw;
-}
-
-h3 {
-    font-size: 4vw;
-}
-
-h4 {
-    font-size: 3vw;
-}
-
-h5 {
-    font-size: 2vw;
 }
 
 a {
@@ -487,13 +458,21 @@ a {
 }
 
 select {
-    font-size: 15px;
-    padding: 3px;
+    border: none;
+    /* padding: 3px; */
     cursor: pointer;
-    border-style: outset;
+    /* border-style: outset;
     border-width: 2px;
-    border-radius: 25%;
-    color: grey;
+    border-radius: 25%; */
+    color: red;
     font-weight: bold;
-    background-color: lightgoldenrodyellow;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    /*background-color: lightgoldenrodyellow; */
+}
+
+select:hover {
+    background-color: lightgrey;
+    font-size: 19px;
+    border-radius: 25%;
 }
