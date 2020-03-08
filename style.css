@@ -205,7 +205,7 @@ button {
     display: inline-block;
     font-size: 18px;
     margin: 4px 2px;
-    transition-duration: .4s;
+    transition-duration: .5s;
     cursor: pointer;
 }
 
@@ -214,10 +214,12 @@ button:hover {
     color: white;
     border-radius: 12px;*/
     border-style: solid;
+    border-color: grey;
     border-top: none;
     border-left: none;
     border-right: none;
     border-width: 3px;
+    font-weight: bolder;
 }
 
 label #btn,
@@ -472,7 +474,8 @@ select {
 }
 
 select:hover {
-    background-color: lightgrey;
-    font-size: 19px;
+    /* background-color: lightgrey;
     border-radius: 25%;
+    */
+    font-size: 19px;
 }
