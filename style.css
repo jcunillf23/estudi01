@@ -57,6 +57,14 @@ section {
     padding: 10px;
 }
 
+.grid-container-1341 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 10% 35% 45% 10%;
+    background-color: white;
+    padding: 10px;
+}
+
 .grid-container-4 {
     display: grid;
     justify-content: space-evenly;
@@ -183,7 +191,7 @@ nav ul li a:hover:before {
 nav select {
     position: absolute;
     /* width: 150px; */
-    top: 15px;
+    top: 10px;
     left: 93%;
 }
 
@@ -300,8 +308,20 @@ label #cancel {
     nav select {
         position: absolute;
         /* width: 150px; */
-        top: 15px;
-        left: 50%;
+        top: 10px;
+        left: 45%;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    h4 {
+        font-size: 4vw;
+    }
+    h5 {
+        font-size: 3vw;
     }
 }
 
@@ -411,13 +431,25 @@ h1.principal {
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 h2.principal {
     color: white;
     font-family: Cambria;
     font-size: 6vw;
+}
+
+h3 {
+    font-size: 4vw;
+}
+
+h4 {
+    font-size: 3vw;
+}
+
+h5 {
+    font-size: 2vw;
 }
 
 a {
