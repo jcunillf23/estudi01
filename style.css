@@ -466,7 +466,7 @@ select {
     /* border-style: outset;
     border-width: 2px;
     border-radius: 25%; */
-    color: red;
+    color: blue;
     font-weight: bold;
     transition-duration: 0.4s;
     font-size: 16px;
@@ -477,5 +477,6 @@ select:hover {
     /* background-color: lightgrey;
     border-radius: 25%;
     */
+    color: red;
     font-size: 19px;
 }
