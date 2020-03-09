@@ -167,7 +167,7 @@ nav ul li a {
     padding: 5px;
     color: black;
     font-size: 18px;
-    text-transform: uppercase;
+    /*  text-transform: uppercase; */
 }
 
 nav ul li a:before {
@@ -390,6 +390,13 @@ label #cancel {
     height: auto;
 }
 
+#imgCursor {
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+
 div.proves {
     width: 100%;
     height: 50vw;
@@ -466,10 +473,10 @@ select {
     /* border-style: outset;
     border-width: 2px;
     border-radius: 25%; */
-    color: red;
+    color: blue;
     font-weight: bold;
     transition-duration: 0.4s;
-    font-size: 16px;
+    font-size: 15px;
     /*background-color: lightgoldenrodyellow; */
 }
 
@@ -477,5 +484,6 @@ select:hover {
     /* background-color: lightgrey;
     border-radius: 25%;
     */
+    color: red;
     font-size: 19px;
 }
