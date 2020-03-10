@@ -53,3 +53,14 @@ function toggleFunction() {
     x.className = x.className.replace(" j-w3-show", "");
   }
 }
+
+
+function mouseOver(onSoc, mida,_color) {
+  document.getElementById(onSoc).style.color = _color;
+  document.getElementById(onSoc).style.fontSize = mida;
+}
+
+function mouseOut(onSoc, mida, _color) {
+  document.getElementById(onSoc).style.color = _color;
+  document.getElementById(onSoc).style.fontSize = mida;
+}

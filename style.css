@@ -455,7 +455,7 @@ a {
 }
 
 .photo-contacte {
-    width: 100% !important;
+    width: 80% !important;
 }
 
 .filterLanguage {
@@ -467,6 +467,7 @@ a {
 }
 
 select {
+    background-color: white;
     border: none;
     /* padding: 3px; */
     cursor: pointer;
@@ -477,9 +478,9 @@ select {
     font-weight: bold;
     transition-duration: 0.4s;
     font-size: 15px;
-    /*background-color: lightgoldenrodyellow; */
 }
 
+/*
 select:hover {
     /* background-color: lightgrey;
     border-radius: 25%;
@@ -487,3 +488,4 @@ select:hover {
     color: red;
     font-size: 19px;
 }
+*/

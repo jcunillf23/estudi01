@@ -96,7 +96,7 @@
                 </div>
             </ul>
             <div>
-                <select name="idioma" id="idIdioma" onchange="canviIdioma();">
+                <select name="idioma" id="idIdioma" onmouseover="mouseOver('idIdioma', '19px','red')" onmouseout="mouseOut('idIdioma','15px','blue')" onchange="canviIdioma();">
                     <option value="idCA" id="idCA">cat</option>
                     <option value="idES" id="idES">esp</option>
                     <option value="idEN" id="idEN">eng</option>
@@ -152,21 +152,21 @@
 
     <footer class="container">
         <ol>
-            <li><a href="contacte.html" style="font-size: 20px" class="titol">ESTUDI LARIS</a></li>
+            <li><a href="contacte.html" style="font-size: 18px" class="titol">ESTUDI LARIS</a></li>
             <li>
                 <a href="mailto:estudi.laris@gmail.com" target="_top">
-                    <i class="fas fa-at ">: estudi.laris@gmail.com</i></a>
+                    <i class="fas fa-at" id="idMail" onmouseover="mouseOver('idMail','17px','red')" onmouseout="mouseOut('idMail','16px','grey')">: estudi.laris@gmail.com</i></a>
             </li>
 
             <li>
                 <a href="tel:34666333999">
-                    <i class="fas fa-mobile-alt">:  +34 666 333 999</i>
+                    <i class="fas fa-mobile-alt" id="idPhone" onmouseover="mouseOver('idPhone','17px','red')" onmouseout="mouseOut('idPhone','16px','grey')">:  +34 666 333 999</i>
                 </a>
             </li>
             <div class="filterLanguage idCA">
                 <li>
                     <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
-                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                        <i class="fab fa-whatsapp" id="idWhatsCA" onmouseover="mouseOver('idWhatsCA','17px','red')" onmouseout="mouseOut('idWhatsCA','16px','grey')">: Envia whatsapp</i>
                     </a>
                 </li>
 
@@ -175,7 +175,7 @@
             <div class="filterLanguage idES">
                 <li>
                     <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
-                        <i class="fab fa-whatsapp">: Envia whatsapp</i>
+                        <i class="fab fa-whatsapp" id="idWhatsES" onmouseover="mouseOver('idWhatsES','17px','red')" onmouseout="mouseOut('idWhatsES','16px','grey')">: Envia whatsapp</i>
                     </a>
                 </li>
 
@@ -184,7 +184,7 @@
             <div class="filterLanguage idEN">
                 <li>
                     <a href="https://wa.me/34608618374?text=Desitjo+que+es+posin+en+contacte.+Gr%C3%A0cies.">
-                        <i class="fab fa-whatsapp">: Send whatsapp</i>
+                        <i class="fab fa-whatsapp" id="idWhatsEN" onmouseover="mouseOver('idWhatsEN','17px','red')" onmouseout="mouseOut('idWhatsEN','16px','grey')">: Send whatsapp</i>
                     </a>
                 </li>
 
